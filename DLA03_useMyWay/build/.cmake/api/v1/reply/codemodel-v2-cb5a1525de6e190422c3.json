@@ -1,0 +1,59 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "DLA03_useMyWay_build",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "DLA03_useMyWay::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DLA03_useMyWay-d37084fa98ad0d1c7ab9.json",
+					"name" : "DLA03_useMyWay",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/s5529663/Desktop/2022/cpp_notes/ASE_code/lab3/DLA03_useMyWay/build",
+		"source" : "/home/s5529663/Desktop/2022/cpp_notes/ASE_code/lab3/DLA03_useMyWay"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 2
+	}
+}

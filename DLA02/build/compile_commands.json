@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/s5529663/Desktop/2022/cpp_notes/ASE_code/lab3/DLA02/build",
+  "command": "/opt/rh/gcc-toolset-11/root/usr/bin/g++ -DFMT_HEADER_ONLY=1 -DOIIO_STATIC_DEFINE=1 -I../include -isystem /public/devel/2022/vcpkg/installed/x64-linux/include -isystem /public/devel/2022/vcpkg/installed/x64-linux/include/OpenEXR -g -std=gnu++17 -o CMakeFiles/DLA02.dir/src/main.cpp.o -c /home/s5529663/Desktop/2022/cpp_notes/ASE_code/lab3/DLA02/src/main.cpp",
+  "file": "/home/s5529663/Desktop/2022/cpp_notes/ASE_code/lab3/DLA02/src/main.cpp"
+},
+{
+  "directory": "/home/s5529663/Desktop/2022/cpp_notes/ASE_code/lab3/DLA02/build",
+  "command": "/opt/rh/gcc-toolset-11/root/usr/bin/g++ -DFMT_HEADER_ONLY=1 -DOIIO_STATIC_DEFINE=1 -I../include -isystem /public/devel/2022/vcpkg/installed/x64-linux/include -isystem /public/devel/2022/vcpkg/installed/x64-linux/include/OpenEXR -g -std=gnu++17 -o CMakeFiles/DLA02.dir/src/Image.cpp.o -c /home/s5529663/Desktop/2022/cpp_notes/ASE_code/lab3/DLA02/src/Image.cpp",
+  "file": "/home/s5529663/Desktop/2022/cpp_notes/ASE_code/lab3/DLA02/src/Image.cpp"
+},
+{
+  "directory": "/home/s5529663/Desktop/2022/cpp_notes/ASE_code/lab3/DLA02/build",
+  "command": "/opt/rh/gcc-toolset-11/root/usr/bin/g++ -DFMT_HEADER_ONLY=1 -DOIIO_STATIC_DEFINE=1 -I../include -isystem /public/devel/2022/vcpkg/installed/x64-linux/include -isystem /public/devel/2022/vcpkg/installed/x64-linux/include/OpenEXR -g -std=gnu++17 -o CMakeFiles/DLA02.dir/src/Walker.cpp.o -c /home/s5529663/Desktop/2022/cpp_notes/ASE_code/lab3/DLA02/src/Walker.cpp",
+  "file": "/home/s5529663/Desktop/2022/cpp_notes/ASE_code/lab3/DLA02/src/Walker.cpp"
+}
+]

@@ -1,0 +1,13 @@
+RGBA.contruct 1 0.0194957
+RGBA.userCtor 1 0.0227916
+RGBA.set 1 0.0248318
+RGBA.fromHexString6 1 0.0259681
+RGBA.fromHexString8 1 0.0256578
+Image.ctor 1 0.0293576
+Image.userCtor 1 0.0293449
+Image.userCtorRGB 1 0.0295959
+Image.clear 0 0
+Image.setPixel 0 0
+---
+Image.setPixel
+Image.clear

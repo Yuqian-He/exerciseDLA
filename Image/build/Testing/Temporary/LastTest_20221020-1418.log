@@ -1,0 +1,291 @@
+Start testing: Oct 20 15:18 BST
+----------------------------------------------------------
+1/10 Testing: RGBA.contruct
+1/10 Test: RGBA.contruct
+Command: "/home/s5529663/Desktop/2022/ASE/lab3/Image/build/ImageTests" "--gtest_filter=RGBA.contruct" "--gtest_also_run_disabled_tests"
+Directory: /home/s5529663/Desktop/2022/ASE/lab3/Image/build
+"RGBA.contruct" start time: Oct 20 15:18 BST
+Output:
+----------------------------------------------------------
+Running main() from /public/devel/2022/vcpkg/buildtrees/gtest/src/ase-1.12.0-dae7aa2018.clean/googletest/src/gtest_main.cc
+Note: Google Test filter = RGBA.contruct
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RGBA
+[ RUN      ] RGBA.contruct
+[       OK ] RGBA.contruct (0 ms)
+[----------] 1 test from RGBA (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"RGBA.contruct" end time: Oct 20 15:19 BST
+"RGBA.contruct" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/10 Testing: RGBA.userCtor
+2/10 Test: RGBA.userCtor
+Command: "/home/s5529663/Desktop/2022/ASE/lab3/Image/build/ImageTests" "--gtest_filter=RGBA.userCtor" "--gtest_also_run_disabled_tests"
+Directory: /home/s5529663/Desktop/2022/ASE/lab3/Image/build
+"RGBA.userCtor" start time: Oct 20 15:18 BST
+Output:
+----------------------------------------------------------
+Running main() from /public/devel/2022/vcpkg/buildtrees/gtest/src/ase-1.12.0-dae7aa2018.clean/googletest/src/gtest_main.cc
+Note: Google Test filter = RGBA.userCtor
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RGBA
+[ RUN      ] RGBA.userCtor
+[       OK ] RGBA.userCtor (0 ms)
+[----------] 1 test from RGBA (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"RGBA.userCtor" end time: Oct 20 15:19 BST
+"RGBA.userCtor" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/10 Testing: RGBA.set
+3/10 Test: RGBA.set
+Command: "/home/s5529663/Desktop/2022/ASE/lab3/Image/build/ImageTests" "--gtest_filter=RGBA.set" "--gtest_also_run_disabled_tests"
+Directory: /home/s5529663/Desktop/2022/ASE/lab3/Image/build
+"RGBA.set" start time: Oct 20 15:18 BST
+Output:
+----------------------------------------------------------
+Running main() from /public/devel/2022/vcpkg/buildtrees/gtest/src/ase-1.12.0-dae7aa2018.clean/googletest/src/gtest_main.cc
+Note: Google Test filter = RGBA.set
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RGBA
+[ RUN      ] RGBA.set
+[       OK ] RGBA.set (0 ms)
+[----------] 1 test from RGBA (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"RGBA.set" end time: Oct 20 15:19 BST
+"RGBA.set" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/10 Testing: RGBA.fromHexString6
+4/10 Test: RGBA.fromHexString6
+Command: "/home/s5529663/Desktop/2022/ASE/lab3/Image/build/ImageTests" "--gtest_filter=RGBA.fromHexString6" "--gtest_also_run_disabled_tests"
+Directory: /home/s5529663/Desktop/2022/ASE/lab3/Image/build
+"RGBA.fromHexString6" start time: Oct 20 15:18 BST
+Output:
+----------------------------------------------------------
+Running main() from /public/devel/2022/vcpkg/buildtrees/gtest/src/ase-1.12.0-dae7aa2018.clean/googletest/src/gtest_main.cc
+Note: Google Test filter = RGBA.fromHexString6
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RGBA
+[ RUN      ] RGBA.fromHexString6
+[       OK ] RGBA.fromHexString6 (0 ms)
+[----------] 1 test from RGBA (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"RGBA.fromHexString6" end time: Oct 20 15:19 BST
+"RGBA.fromHexString6" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/10 Testing: RGBA.fromHexString8
+5/10 Test: RGBA.fromHexString8
+Command: "/home/s5529663/Desktop/2022/ASE/lab3/Image/build/ImageTests" "--gtest_filter=RGBA.fromHexString8" "--gtest_also_run_disabled_tests"
+Directory: /home/s5529663/Desktop/2022/ASE/lab3/Image/build
+"RGBA.fromHexString8" start time: Oct 20 15:18 BST
+Output:
+----------------------------------------------------------
+Running main() from /public/devel/2022/vcpkg/buildtrees/gtest/src/ase-1.12.0-dae7aa2018.clean/googletest/src/gtest_main.cc
+Note: Google Test filter = RGBA.fromHexString8
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RGBA
+[ RUN      ] RGBA.fromHexString8
+[       OK ] RGBA.fromHexString8 (0 ms)
+[----------] 1 test from RGBA (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"RGBA.fromHexString8" end time: Oct 20 15:19 BST
+"RGBA.fromHexString8" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/10 Testing: Image.ctor
+6/10 Test: Image.ctor
+Command: "/home/s5529663/Desktop/2022/ASE/lab3/Image/build/ImageTests" "--gtest_filter=Image.ctor" "--gtest_also_run_disabled_tests"
+Directory: /home/s5529663/Desktop/2022/ASE/lab3/Image/build
+"Image.ctor" start time: Oct 20 15:18 BST
+Output:
+----------------------------------------------------------
+Running main() from /public/devel/2022/vcpkg/buildtrees/gtest/src/ase-1.12.0-dae7aa2018.clean/googletest/src/gtest_main.cc
+Note: Google Test filter = Image.ctor
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Image
+[ RUN      ] Image.ctor
+[       OK ] Image.ctor (0 ms)
+[----------] 1 test from Image (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"Image.ctor" end time: Oct 20 15:19 BST
+"Image.ctor" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/10 Testing: Image.userCtor
+7/10 Test: Image.userCtor
+Command: "/home/s5529663/Desktop/2022/ASE/lab3/Image/build/ImageTests" "--gtest_filter=Image.userCtor" "--gtest_also_run_disabled_tests"
+Directory: /home/s5529663/Desktop/2022/ASE/lab3/Image/build
+"Image.userCtor" start time: Oct 20 15:18 BST
+Output:
+----------------------------------------------------------
+Running main() from /public/devel/2022/vcpkg/buildtrees/gtest/src/ase-1.12.0-dae7aa2018.clean/googletest/src/gtest_main.cc
+Note: Google Test filter = Image.userCtor
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Image
+[ RUN      ] Image.userCtor
+[       OK ] Image.userCtor (1 ms)
+[----------] 1 test from Image (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"Image.userCtor" end time: Oct 20 15:19 BST
+"Image.userCtor" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/10 Testing: Image.userCtorRGB
+8/10 Test: Image.userCtorRGB
+Command: "/home/s5529663/Desktop/2022/ASE/lab3/Image/build/ImageTests" "--gtest_filter=Image.userCtorRGB" "--gtest_also_run_disabled_tests"
+Directory: /home/s5529663/Desktop/2022/ASE/lab3/Image/build
+"Image.userCtorRGB" start time: Oct 20 15:18 BST
+Output:
+----------------------------------------------------------
+Running main() from /public/devel/2022/vcpkg/buildtrees/gtest/src/ase-1.12.0-dae7aa2018.clean/googletest/src/gtest_main.cc
+Note: Google Test filter = Image.userCtorRGB
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Image
+[ RUN      ] Image.userCtorRGB
+[       OK ] Image.userCtorRGB (0 ms)
+[----------] 1 test from Image (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"Image.userCtorRGB" end time: Oct 20 15:19 BST
+"Image.userCtorRGB" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/10 Testing: Image.setPixel
+10/10 Test: Image.setPixel
+Command: "/home/s5529663/Desktop/2022/ASE/lab3/Image/build/ImageTests" "--gtest_filter=Image.setPixel" "--gtest_also_run_disabled_tests"
+Directory: /home/s5529663/Desktop/2022/ASE/lab3/Image/build
+"Image.setPixel" start time: Oct 20 15:19 BST
+Output:
+----------------------------------------------------------
+Running main() from /public/devel/2022/vcpkg/buildtrees/gtest/src/ase-1.12.0-dae7aa2018.clean/googletest/src/gtest_main.cc
+Note: Google Test filter = Image.setPixel
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Image
+[ RUN      ] Image.setPixel
+../tests/ImageTests.cpp:62: Failure
+Expected equality of these values:
+  p.g
+    Which is: '\xFF' (255)
+  0
+[  FAILED  ] Image.setPixel (17 ms)
+[----------] 1 test from Image (17 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (17 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] Image.setPixel
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Failed.
+"Image.setPixel" end time: Oct 20 15:19 BST
+"Image.setPixel" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/10 Testing: Image.clear
+9/10 Test: Image.clear
+Command: "/home/s5529663/Desktop/2022/ASE/lab3/Image/build/ImageTests" "--gtest_filter=Image.clear" "--gtest_also_run_disabled_tests"
+Directory: /home/s5529663/Desktop/2022/ASE/lab3/Image/build
+"Image.clear" start time: Oct 20 15:18 BST
+Output:
+----------------------------------------------------------
+Running main() from /public/devel/2022/vcpkg/buildtrees/gtest/src/ase-1.12.0-dae7aa2018.clean/googletest/src/gtest_main.cc
+Note: Google Test filter = Image.clear
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Image
+[ RUN      ] Image.clear
+../tests/ImageTests.cpp:39: Failure
+Expected equality of these values:
+  pixel.g
+    Which is: '\xFF' (255)
+  0
+[  FAILED  ] Image.clear (20 ms)
+[----------] 1 test from Image (20 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (20 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] Image.clear
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Failed.
+"Image.clear" end time: Oct 20 15:19 BST
+"Image.clear" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 20 15:19 BST

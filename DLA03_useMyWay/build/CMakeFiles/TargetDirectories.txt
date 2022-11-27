@@ -1,0 +1,3 @@
+/home/s5529663/Desktop/2022/cpp_notes/ASE_code/lab3/DLA03_useMyWay/build/CMakeFiles/rebuild_cache.dir
+/home/s5529663/Desktop/2022/cpp_notes/ASE_code/lab3/DLA03_useMyWay/build/CMakeFiles/DLA03_useMyWay.dir
+/home/s5529663/Desktop/2022/cpp_notes/ASE_code/lab3/DLA03_useMyWay/build/CMakeFiles/edit_cache.dir

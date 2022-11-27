@@ -1,0 +1,5 @@
+/home/s5529663/Desktop/2022/ASE/lab3/Image/build/CMakeFiles/rebuild_cache.dir
+/home/s5529663/Desktop/2022/ASE/lab3/Image/build/CMakeFiles/edit_cache.dir
+/home/s5529663/Desktop/2022/ASE/lab3/Image/build/CMakeFiles/test.dir
+/home/s5529663/Desktop/2022/ASE/lab3/Image/build/CMakeFiles/Image.dir
+/home/s5529663/Desktop/2022/ASE/lab3/Image/build/CMakeFiles/ImageTests.dir
