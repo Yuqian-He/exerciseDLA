@@ -9,7 +9,7 @@ std::uniform_int_distribution<> g_walkDir(-1,1);
 
 Walker::Walker(size_t _w, size_t _h)
 {
-    m_map=std::make_unique<Image>(_w,_h,255,255,255,255);
+    m_map=std::make_unique<Image>(_w,_h,255,255,255,0);
     initRNG();
     resetStart();
 }
@@ -64,7 +64,7 @@ bool Walker::walk()
              {
                  p=m_map->getPixel(m_xpos+x,m_ypos+y);
                  //std::cout<<std::to_string(p.r)<<std::to_string(p.g)<<std::to_string(p.b)<<'\n';
-                 if(static_cast<int>(p.a)==255)
+                 if(p.a==255)
                  {
                      std::cout<<"found seed\n";
                      m_map->setPixel(m_xpos,m_ypos,0,0,0,255);
