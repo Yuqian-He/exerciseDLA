@@ -9,6 +9,7 @@
 moc/
 moc_*
 ui_*
+build
 # shadow build directories
 build-*
 Makefile
@@ -29,7 +30,8 @@ Makefile
 *.sln
 *.user
 *.filters
-.vscode
+*.vscode
+
 
 # Executables
 *.exe

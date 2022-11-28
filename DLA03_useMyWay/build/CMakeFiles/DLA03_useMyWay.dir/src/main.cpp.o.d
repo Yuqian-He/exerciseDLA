@@ -1,5 +1,5 @@
 CMakeFiles/DLA03_useMyWay.dir/src/main.cpp.o: \
- /home/s5529663/Desktop/2022/cpp_notes/ASE_code/lab3/DLA03_useMyWay/src/main.cpp \
+ /home/s5529663/Desktop/2022/project/DLA/DLA03_useMyWay/src/main.cpp \
  /usr/include/stdc-predef.h \
  /opt/rh/gcc-toolset-11/root/usr/include/c++/11/iostream \
  /opt/rh/gcc-toolset-11/root/usr/include/c++/11/x86_64-redhat-linux/bits/c++config.h \
@@ -137,10 +137,10 @@ CMakeFiles/DLA03_useMyWay.dir/src/main.cpp.o: \
  /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/ostream.tcc \
  /opt/rh/gcc-toolset-11/root/usr/include/c++/11/istream \
  /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/istream.tcc \
- /home/s5529663/Desktop/2022/cpp_notes/ASE_code/lab3/DLA03_useMyWay/include/Walker.h \
- /home/s5529663/Desktop/2022/cpp_notes/ASE_code/lab3/DLA03_useMyWay/include/Image.h \
+ /home/s5529663/Desktop/2022/project/DLA/DLA03_useMyWay/include/Walker.h \
+ /home/s5529663/Desktop/2022/project/DLA/DLA03_useMyWay/include/Image.h \
  /opt/rh/gcc-toolset-11/root/usr/include/c++/11/cstddef \
- /home/s5529663/Desktop/2022/cpp_notes/ASE_code/lab3/DLA03_useMyWay/include/RGBA.h \
+ /home/s5529663/Desktop/2022/project/DLA/DLA03_useMyWay/include/RGBA.h \
  /opt/rh/gcc-toolset-11/root/usr/include/c++/11/memory \
  /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/stl_uninitialized.h \
  /opt/rh/gcc-toolset-11/root/usr/include/c++/11/bits/stl_tempbuf.h \

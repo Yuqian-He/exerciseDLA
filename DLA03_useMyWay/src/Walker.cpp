@@ -64,22 +64,27 @@ bool Walker::changePointColour(std::vector<int> p)
     return isWalked;
 }
 
-std::vector<int>* Walker::walk(std::vector<int> centrePoint)
+std::vector<std::vector<int>> Walker::walk(std::vector<int> centrePoint)
 {
     int RandomSurroundingPoint = g_surroundingPoint(g_rng);
+    std::vector<std::vector<int>> surroundingPoints;
+
     for(int i =0; i<RandomSurroundingPoint; i++)
     {
         auto surroundingP = RandomPoint(centrePoint);
         if(changePointColour(surroundingP) == true)
         {
-            surroundingPoint_prt[i] = surroundingP;
+            surroundingPoints[i] = surroundingP;
+            std::cout<<surroundingPoints[i][0]<<" "<<surroundingPoints[i][1]<<'\n';
         }
         else
         {
             continue;
         }
     }
-    return surroundingPoint_prt;
+    // add surroundingPoint to surroundingPoints
+
+    return surroundingPoints;
 }
 
 

@@ -22,7 +22,7 @@ int main()
     
     for(int i = 0; i < numberOfImage; i++)
     {
-        std::vector<int>** prtArray = new std::vector<int>*[DynamicArr->size()]();
+        std::vector<std::vector<int>>* prtArray = new std::vector<std::vector<int>>[DynamicArr->size()]();
         int sizePointer_prt;
         //std::vector<int>* new_DynamicArrPoint = new std::vector<int>[sizeCentrePoint]();
         if(i == 0)
@@ -31,23 +31,24 @@ int main()
             for(int j = 0; j< DynamicArr->size(); j++)
             {
                 prtArray[j]=w.walk(DynamicArr[j]);
+                //std::cout<<prtArray[j]<<'\n';
             }
             for(int z = 0; z< DynamicArr->size(); z++)
             {
                 sizePointer_prt=DynamicArr->size();
                 sizeCentrePoint = 0;
-                sizeCentrePoint += prtArray[z]->size();
+                sizeCentrePoint += prtArray[z].size();
             }
         }
         else{
-            std::vector<int>** new_prtArray = new std::vector<int>*[sizeCentrePoint]();
+            std::vector<std::vector<int>>* new_prtArray = new std::vector<std::vector<int>>[sizeCentrePoint]();
             int size = 0;
             for(int j=0; j< sizePointer_prt; j++)
             {               
-                for(int z = 0; z< prtArray[j]->size(); z++)
+                for(int z = 0; z< prtArray[j].size(); z++)
                 {
                     new_prtArray[j]=w.walk(prtArray[j][z]);
-                    size+= new_prtArray[j]->size();
+                    size+= new_prtArray[j].size();
                 }
             }
             sizeCentrePoint=size;

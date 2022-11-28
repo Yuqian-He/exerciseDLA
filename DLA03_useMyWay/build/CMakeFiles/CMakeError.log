@@ -1,22 +1,22 @@
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
-Change Dir: /home/s5529663/Desktop/2022/cpp_notes/ASE_code/lab3/DLA03_useMyWay/build/CMakeFiles/CMakeTmp
+Change Dir: /home/s5529663/Desktop/2022/project/DLA/DLA03_useMyWay/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/opt/rh/gcc-toolset-11/root/usr/bin/gmake -f Makefile cmTC_ec41c/fast && /opt/rh/gcc-toolset-11/root/usr/bin/gmake  -f CMakeFiles/cmTC_ec41c.dir/build.make CMakeFiles/cmTC_ec41c.dir/build
-gmake[1]: Entering directory '/home/s5529663/Desktop/2022/cpp_notes/ASE_code/lab3/DLA03_useMyWay/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ec41c.dir/src.c.o
-/opt/rh/gcc-toolset-11/root/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_ec41c.dir/src.c.o -c /home/s5529663/Desktop/2022/cpp_notes/ASE_code/lab3/DLA03_useMyWay/build/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_ec41c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ec41c.dir/link.txt --verbose=1
-/opt/rh/gcc-toolset-11/root/usr/bin/cc CMakeFiles/cmTC_ec41c.dir/src.c.o -o cmTC_ec41c 
-/opt/rh/gcc-toolset-11/root/usr/bin/ld: CMakeFiles/cmTC_ec41c.dir/src.c.o: in function `main':
+Run Build Command(s):/opt/rh/gcc-toolset-11/root/usr/bin/gmake -f Makefile cmTC_68f52/fast && /opt/rh/gcc-toolset-11/root/usr/bin/gmake  -f CMakeFiles/cmTC_68f52.dir/build.make CMakeFiles/cmTC_68f52.dir/build
+gmake[1]: Entering directory '/home/s5529663/Desktop/2022/project/DLA/DLA03_useMyWay/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_68f52.dir/src.c.o
+/opt/rh/gcc-toolset-11/root/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_68f52.dir/src.c.o -c /home/s5529663/Desktop/2022/project/DLA/DLA03_useMyWay/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_68f52
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68f52.dir/link.txt --verbose=1
+/opt/rh/gcc-toolset-11/root/usr/bin/cc CMakeFiles/cmTC_68f52.dir/src.c.o -o cmTC_68f52 
+/opt/rh/gcc-toolset-11/root/usr/bin/ld: CMakeFiles/cmTC_68f52.dir/src.c.o: in function `main':
 src.c:(.text+0x2d): undefined reference to `pthread_create'
 /opt/rh/gcc-toolset-11/root/usr/bin/ld: src.c:(.text+0x39): undefined reference to `pthread_detach'
 /opt/rh/gcc-toolset-11/root/usr/bin/ld: src.c:(.text+0x45): undefined reference to `pthread_cancel'
 /opt/rh/gcc-toolset-11/root/usr/bin/ld: src.c:(.text+0x56): undefined reference to `pthread_join'
 collect2: error: ld returned 1 exit status
-gmake[1]: *** [CMakeFiles/cmTC_ec41c.dir/build.make:99: cmTC_ec41c] Error 1
-gmake[1]: Leaving directory '/home/s5529663/Desktop/2022/cpp_notes/ASE_code/lab3/DLA03_useMyWay/build/CMakeFiles/CMakeTmp'
-gmake: *** [Makefile:127: cmTC_ec41c/fast] Error 2
+gmake[1]: *** [CMakeFiles/cmTC_68f52.dir/build.make:99: cmTC_68f52] Error 1
+gmake[1]: Leaving directory '/home/s5529663/Desktop/2022/project/DLA/DLA03_useMyWay/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_68f52/fast] Error 2
 
 
 Source file was:
@@ -41,20 +41,20 @@ int main(void)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/s5529663/Desktop/2022/cpp_notes/ASE_code/lab3/DLA03_useMyWay/build/CMakeFiles/CMakeTmp
+Change Dir: /home/s5529663/Desktop/2022/project/DLA/DLA03_useMyWay/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/opt/rh/gcc-toolset-11/root/usr/bin/gmake -f Makefile cmTC_fe2a0/fast && /opt/rh/gcc-toolset-11/root/usr/bin/gmake  -f CMakeFiles/cmTC_fe2a0.dir/build.make CMakeFiles/cmTC_fe2a0.dir/build
-gmake[1]: Entering directory '/home/s5529663/Desktop/2022/cpp_notes/ASE_code/lab3/DLA03_useMyWay/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_fe2a0.dir/CheckFunctionExists.c.o
-/opt/rh/gcc-toolset-11/root/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_fe2a0.dir/CheckFunctionExists.c.o -c /usr/share/cmake/Modules/CheckFunctionExists.c
-Linking C executable cmTC_fe2a0
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fe2a0.dir/link.txt --verbose=1
-/opt/rh/gcc-toolset-11/root/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_fe2a0.dir/CheckFunctionExists.c.o -o cmTC_fe2a0  -lpthreads 
+Run Build Command(s):/opt/rh/gcc-toolset-11/root/usr/bin/gmake -f Makefile cmTC_0726a/fast && /opt/rh/gcc-toolset-11/root/usr/bin/gmake  -f CMakeFiles/cmTC_0726a.dir/build.make CMakeFiles/cmTC_0726a.dir/build
+gmake[1]: Entering directory '/home/s5529663/Desktop/2022/project/DLA/DLA03_useMyWay/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0726a.dir/CheckFunctionExists.c.o
+/opt/rh/gcc-toolset-11/root/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_0726a.dir/CheckFunctionExists.c.o -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0726a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0726a.dir/link.txt --verbose=1
+/opt/rh/gcc-toolset-11/root/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_0726a.dir/CheckFunctionExists.c.o -o cmTC_0726a  -lpthreads 
 /opt/rh/gcc-toolset-11/root/usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-gmake[1]: *** [CMakeFiles/cmTC_fe2a0.dir/build.make:99: cmTC_fe2a0] Error 1
-gmake[1]: Leaving directory '/home/s5529663/Desktop/2022/cpp_notes/ASE_code/lab3/DLA03_useMyWay/build/CMakeFiles/CMakeTmp'
-gmake: *** [Makefile:127: cmTC_fe2a0/fast] Error 2
+gmake[1]: *** [CMakeFiles/cmTC_0726a.dir/build.make:99: cmTC_0726a] Error 1
+gmake[1]: Leaving directory '/home/s5529663/Desktop/2022/project/DLA/DLA03_useMyWay/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_0726a/fast] Error 2
 
 
 

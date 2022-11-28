@@ -1,4 +1,4 @@
-# Install script for directory: /home/s5529663/Desktop/2022/cpp_notes/ASE_code/lab3/DLA03_useMyWay
+# Install script for directory: /home/s5529663/Desktop/2022/project/DLA/DLA03_useMyWay
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/s5529663/Desktop/2022/cpp_notes/ASE_code/lab3/DLA03_useMyWay/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/s5529663/Desktop/2022/project/DLA/DLA03_useMyWay/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -4,7 +4,7 @@
 # compile CXX with /opt/rh/gcc-toolset-11/root/usr/bin/c++
 CXX_DEFINES = -DFMT_HEADER_ONLY=1 -DOIIO_STATIC_DEFINE=1
 
-CXX_INCLUDES = -I/home/s5529663/Desktop/2022/cpp_notes/ASE_code/lab3/DLA03_useMyWay/include -isystem /public/devel/2022/vcpkg/installed/x64-linux/include -isystem /public/devel/2022/vcpkg/installed/x64-linux/include/OpenEXR
+CXX_INCLUDES = -I/home/s5529663/Desktop/2022/project/DLA/DLA03_useMyWay/include -isystem /public/devel/2022/vcpkg/installed/x64-linux/include -isystem /public/devel/2022/vcpkg/installed/x64-linux/include/OpenEXR
 
 CXX_FLAGS = -std=gnu++17
 

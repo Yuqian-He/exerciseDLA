@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/s5529663/Desktop/2022/cpp_notes/ASE_code/lab3/DLA03_useMyWay
+CMAKE_SOURCE_DIR = /home/s5529663/Desktop/2022/project/DLA/DLA03_useMyWay
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/s5529663/Desktop/2022/cpp_notes/ASE_code/lab3/DLA03_useMyWay/build
+CMAKE_BINARY_DIR = /home/s5529663/Desktop/2022/project/DLA/DLA03_useMyWay/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/DLA03_useMyWay.dir/depend.make
@@ -72,44 +72,44 @@ include CMakeFiles/DLA03_useMyWay.dir/flags.make
 CMakeFiles/DLA03_useMyWay.dir/src/main.cpp.o: CMakeFiles/DLA03_useMyWay.dir/flags.make
 CMakeFiles/DLA03_useMyWay.dir/src/main.cpp.o: ../src/main.cpp
 CMakeFiles/DLA03_useMyWay.dir/src/main.cpp.o: CMakeFiles/DLA03_useMyWay.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/s5529663/Desktop/2022/cpp_notes/ASE_code/lab3/DLA03_useMyWay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/DLA03_useMyWay.dir/src/main.cpp.o"
-	/opt/rh/gcc-toolset-11/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DLA03_useMyWay.dir/src/main.cpp.o -MF CMakeFiles/DLA03_useMyWay.dir/src/main.cpp.o.d -o CMakeFiles/DLA03_useMyWay.dir/src/main.cpp.o -c /home/s5529663/Desktop/2022/cpp_notes/ASE_code/lab3/DLA03_useMyWay/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/s5529663/Desktop/2022/project/DLA/DLA03_useMyWay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/DLA03_useMyWay.dir/src/main.cpp.o"
+	/opt/rh/gcc-toolset-11/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DLA03_useMyWay.dir/src/main.cpp.o -MF CMakeFiles/DLA03_useMyWay.dir/src/main.cpp.o.d -o CMakeFiles/DLA03_useMyWay.dir/src/main.cpp.o -c /home/s5529663/Desktop/2022/project/DLA/DLA03_useMyWay/src/main.cpp
 
 CMakeFiles/DLA03_useMyWay.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DLA03_useMyWay.dir/src/main.cpp.i"
-	/opt/rh/gcc-toolset-11/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/s5529663/Desktop/2022/cpp_notes/ASE_code/lab3/DLA03_useMyWay/src/main.cpp > CMakeFiles/DLA03_useMyWay.dir/src/main.cpp.i
+	/opt/rh/gcc-toolset-11/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/s5529663/Desktop/2022/project/DLA/DLA03_useMyWay/src/main.cpp > CMakeFiles/DLA03_useMyWay.dir/src/main.cpp.i
 
 CMakeFiles/DLA03_useMyWay.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DLA03_useMyWay.dir/src/main.cpp.s"
-	/opt/rh/gcc-toolset-11/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/s5529663/Desktop/2022/cpp_notes/ASE_code/lab3/DLA03_useMyWay/src/main.cpp -o CMakeFiles/DLA03_useMyWay.dir/src/main.cpp.s
+	/opt/rh/gcc-toolset-11/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/s5529663/Desktop/2022/project/DLA/DLA03_useMyWay/src/main.cpp -o CMakeFiles/DLA03_useMyWay.dir/src/main.cpp.s
 
 CMakeFiles/DLA03_useMyWay.dir/src/Image.cpp.o: CMakeFiles/DLA03_useMyWay.dir/flags.make
 CMakeFiles/DLA03_useMyWay.dir/src/Image.cpp.o: ../src/Image.cpp
 CMakeFiles/DLA03_useMyWay.dir/src/Image.cpp.o: CMakeFiles/DLA03_useMyWay.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/s5529663/Desktop/2022/cpp_notes/ASE_code/lab3/DLA03_useMyWay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/DLA03_useMyWay.dir/src/Image.cpp.o"
-	/opt/rh/gcc-toolset-11/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DLA03_useMyWay.dir/src/Image.cpp.o -MF CMakeFiles/DLA03_useMyWay.dir/src/Image.cpp.o.d -o CMakeFiles/DLA03_useMyWay.dir/src/Image.cpp.o -c /home/s5529663/Desktop/2022/cpp_notes/ASE_code/lab3/DLA03_useMyWay/src/Image.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/s5529663/Desktop/2022/project/DLA/DLA03_useMyWay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/DLA03_useMyWay.dir/src/Image.cpp.o"
+	/opt/rh/gcc-toolset-11/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DLA03_useMyWay.dir/src/Image.cpp.o -MF CMakeFiles/DLA03_useMyWay.dir/src/Image.cpp.o.d -o CMakeFiles/DLA03_useMyWay.dir/src/Image.cpp.o -c /home/s5529663/Desktop/2022/project/DLA/DLA03_useMyWay/src/Image.cpp
 
 CMakeFiles/DLA03_useMyWay.dir/src/Image.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DLA03_useMyWay.dir/src/Image.cpp.i"
-	/opt/rh/gcc-toolset-11/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/s5529663/Desktop/2022/cpp_notes/ASE_code/lab3/DLA03_useMyWay/src/Image.cpp > CMakeFiles/DLA03_useMyWay.dir/src/Image.cpp.i
+	/opt/rh/gcc-toolset-11/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/s5529663/Desktop/2022/project/DLA/DLA03_useMyWay/src/Image.cpp > CMakeFiles/DLA03_useMyWay.dir/src/Image.cpp.i
 
 CMakeFiles/DLA03_useMyWay.dir/src/Image.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DLA03_useMyWay.dir/src/Image.cpp.s"
-	/opt/rh/gcc-toolset-11/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/s5529663/Desktop/2022/cpp_notes/ASE_code/lab3/DLA03_useMyWay/src/Image.cpp -o CMakeFiles/DLA03_useMyWay.dir/src/Image.cpp.s
+	/opt/rh/gcc-toolset-11/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/s5529663/Desktop/2022/project/DLA/DLA03_useMyWay/src/Image.cpp -o CMakeFiles/DLA03_useMyWay.dir/src/Image.cpp.s
 
 CMakeFiles/DLA03_useMyWay.dir/src/Walker.cpp.o: CMakeFiles/DLA03_useMyWay.dir/flags.make
 CMakeFiles/DLA03_useMyWay.dir/src/Walker.cpp.o: ../src/Walker.cpp
 CMakeFiles/DLA03_useMyWay.dir/src/Walker.cpp.o: CMakeFiles/DLA03_useMyWay.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/s5529663/Desktop/2022/cpp_notes/ASE_code/lab3/DLA03_useMyWay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/DLA03_useMyWay.dir/src/Walker.cpp.o"
-	/opt/rh/gcc-toolset-11/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DLA03_useMyWay.dir/src/Walker.cpp.o -MF CMakeFiles/DLA03_useMyWay.dir/src/Walker.cpp.o.d -o CMakeFiles/DLA03_useMyWay.dir/src/Walker.cpp.o -c /home/s5529663/Desktop/2022/cpp_notes/ASE_code/lab3/DLA03_useMyWay/src/Walker.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/s5529663/Desktop/2022/project/DLA/DLA03_useMyWay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/DLA03_useMyWay.dir/src/Walker.cpp.o"
+	/opt/rh/gcc-toolset-11/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DLA03_useMyWay.dir/src/Walker.cpp.o -MF CMakeFiles/DLA03_useMyWay.dir/src/Walker.cpp.o.d -o CMakeFiles/DLA03_useMyWay.dir/src/Walker.cpp.o -c /home/s5529663/Desktop/2022/project/DLA/DLA03_useMyWay/src/Walker.cpp
 
 CMakeFiles/DLA03_useMyWay.dir/src/Walker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DLA03_useMyWay.dir/src/Walker.cpp.i"
-	/opt/rh/gcc-toolset-11/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/s5529663/Desktop/2022/cpp_notes/ASE_code/lab3/DLA03_useMyWay/src/Walker.cpp > CMakeFiles/DLA03_useMyWay.dir/src/Walker.cpp.i
+	/opt/rh/gcc-toolset-11/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/s5529663/Desktop/2022/project/DLA/DLA03_useMyWay/src/Walker.cpp > CMakeFiles/DLA03_useMyWay.dir/src/Walker.cpp.i
 
 CMakeFiles/DLA03_useMyWay.dir/src/Walker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DLA03_useMyWay.dir/src/Walker.cpp.s"
-	/opt/rh/gcc-toolset-11/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/s5529663/Desktop/2022/cpp_notes/ASE_code/lab3/DLA03_useMyWay/src/Walker.cpp -o CMakeFiles/DLA03_useMyWay.dir/src/Walker.cpp.s
+	/opt/rh/gcc-toolset-11/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/s5529663/Desktop/2022/project/DLA/DLA03_useMyWay/src/Walker.cpp -o CMakeFiles/DLA03_useMyWay.dir/src/Walker.cpp.s
 
 # Object files for target DLA03_useMyWay
 DLA03_useMyWay_OBJECTS = \
@@ -149,7 +149,7 @@ DLA03_useMyWay: /public/devel/2022/vcpkg/installed/x64-linux/lib/libboost_thread
 DLA03_useMyWay: /public/devel/2022/vcpkg/installed/x64-linux/lib/libboost_chrono.a
 DLA03_useMyWay: /public/devel/2022/vcpkg/installed/x64-linux/lib/libboost_atomic.a
 DLA03_useMyWay: CMakeFiles/DLA03_useMyWay.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/s5529663/Desktop/2022/cpp_notes/ASE_code/lab3/DLA03_useMyWay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable DLA03_useMyWay"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/s5529663/Desktop/2022/project/DLA/DLA03_useMyWay/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable DLA03_useMyWay"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/DLA03_useMyWay.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -161,6 +161,6 @@ CMakeFiles/DLA03_useMyWay.dir/clean:
 .PHONY : CMakeFiles/DLA03_useMyWay.dir/clean
 
 CMakeFiles/DLA03_useMyWay.dir/depend:
-	cd /home/s5529663/Desktop/2022/cpp_notes/ASE_code/lab3/DLA03_useMyWay/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/s5529663/Desktop/2022/cpp_notes/ASE_code/lab3/DLA03_useMyWay /home/s5529663/Desktop/2022/cpp_notes/ASE_code/lab3/DLA03_useMyWay /home/s5529663/Desktop/2022/cpp_notes/ASE_code/lab3/DLA03_useMyWay/build /home/s5529663/Desktop/2022/cpp_notes/ASE_code/lab3/DLA03_useMyWay/build /home/s5529663/Desktop/2022/cpp_notes/ASE_code/lab3/DLA03_useMyWay/build/CMakeFiles/DLA03_useMyWay.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/s5529663/Desktop/2022/project/DLA/DLA03_useMyWay/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/s5529663/Desktop/2022/project/DLA/DLA03_useMyWay /home/s5529663/Desktop/2022/project/DLA/DLA03_useMyWay /home/s5529663/Desktop/2022/project/DLA/DLA03_useMyWay/build /home/s5529663/Desktop/2022/project/DLA/DLA03_useMyWay/build /home/s5529663/Desktop/2022/project/DLA/DLA03_useMyWay/build/CMakeFiles/DLA03_useMyWay.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/DLA03_useMyWay.dir/depend
 
