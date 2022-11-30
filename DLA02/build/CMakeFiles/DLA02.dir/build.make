@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/s5529663/Desktop/2022/cpp_notes/ASE_code/lab3/DLA02
+CMAKE_SOURCE_DIR = /home/s5529663/Desktop/2022/project/DLA/DLA02
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/s5529663/Desktop/2022/cpp_notes/ASE_code/lab3/DLA02/build
+CMAKE_BINARY_DIR = /home/s5529663/Desktop/2022/project/DLA/DLA02/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/DLA02.dir/depend.make
@@ -72,44 +72,44 @@ include CMakeFiles/DLA02.dir/flags.make
 CMakeFiles/DLA02.dir/src/main.cpp.o: CMakeFiles/DLA02.dir/flags.make
 CMakeFiles/DLA02.dir/src/main.cpp.o: ../src/main.cpp
 CMakeFiles/DLA02.dir/src/main.cpp.o: CMakeFiles/DLA02.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/s5529663/Desktop/2022/cpp_notes/ASE_code/lab3/DLA02/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/DLA02.dir/src/main.cpp.o"
-	/opt/rh/gcc-toolset-11/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DLA02.dir/src/main.cpp.o -MF CMakeFiles/DLA02.dir/src/main.cpp.o.d -o CMakeFiles/DLA02.dir/src/main.cpp.o -c /home/s5529663/Desktop/2022/cpp_notes/ASE_code/lab3/DLA02/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/s5529663/Desktop/2022/project/DLA/DLA02/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/DLA02.dir/src/main.cpp.o"
+	/opt/rh/gcc-toolset-11/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DLA02.dir/src/main.cpp.o -MF CMakeFiles/DLA02.dir/src/main.cpp.o.d -o CMakeFiles/DLA02.dir/src/main.cpp.o -c /home/s5529663/Desktop/2022/project/DLA/DLA02/src/main.cpp
 
 CMakeFiles/DLA02.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DLA02.dir/src/main.cpp.i"
-	/opt/rh/gcc-toolset-11/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/s5529663/Desktop/2022/cpp_notes/ASE_code/lab3/DLA02/src/main.cpp > CMakeFiles/DLA02.dir/src/main.cpp.i
+	/opt/rh/gcc-toolset-11/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/s5529663/Desktop/2022/project/DLA/DLA02/src/main.cpp > CMakeFiles/DLA02.dir/src/main.cpp.i
 
 CMakeFiles/DLA02.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DLA02.dir/src/main.cpp.s"
-	/opt/rh/gcc-toolset-11/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/s5529663/Desktop/2022/cpp_notes/ASE_code/lab3/DLA02/src/main.cpp -o CMakeFiles/DLA02.dir/src/main.cpp.s
+	/opt/rh/gcc-toolset-11/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/s5529663/Desktop/2022/project/DLA/DLA02/src/main.cpp -o CMakeFiles/DLA02.dir/src/main.cpp.s
 
 CMakeFiles/DLA02.dir/src/Image.cpp.o: CMakeFiles/DLA02.dir/flags.make
 CMakeFiles/DLA02.dir/src/Image.cpp.o: ../src/Image.cpp
 CMakeFiles/DLA02.dir/src/Image.cpp.o: CMakeFiles/DLA02.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/s5529663/Desktop/2022/cpp_notes/ASE_code/lab3/DLA02/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/DLA02.dir/src/Image.cpp.o"
-	/opt/rh/gcc-toolset-11/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DLA02.dir/src/Image.cpp.o -MF CMakeFiles/DLA02.dir/src/Image.cpp.o.d -o CMakeFiles/DLA02.dir/src/Image.cpp.o -c /home/s5529663/Desktop/2022/cpp_notes/ASE_code/lab3/DLA02/src/Image.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/s5529663/Desktop/2022/project/DLA/DLA02/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/DLA02.dir/src/Image.cpp.o"
+	/opt/rh/gcc-toolset-11/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DLA02.dir/src/Image.cpp.o -MF CMakeFiles/DLA02.dir/src/Image.cpp.o.d -o CMakeFiles/DLA02.dir/src/Image.cpp.o -c /home/s5529663/Desktop/2022/project/DLA/DLA02/src/Image.cpp
 
 CMakeFiles/DLA02.dir/src/Image.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DLA02.dir/src/Image.cpp.i"
-	/opt/rh/gcc-toolset-11/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/s5529663/Desktop/2022/cpp_notes/ASE_code/lab3/DLA02/src/Image.cpp > CMakeFiles/DLA02.dir/src/Image.cpp.i
+	/opt/rh/gcc-toolset-11/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/s5529663/Desktop/2022/project/DLA/DLA02/src/Image.cpp > CMakeFiles/DLA02.dir/src/Image.cpp.i
 
 CMakeFiles/DLA02.dir/src/Image.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DLA02.dir/src/Image.cpp.s"
-	/opt/rh/gcc-toolset-11/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/s5529663/Desktop/2022/cpp_notes/ASE_code/lab3/DLA02/src/Image.cpp -o CMakeFiles/DLA02.dir/src/Image.cpp.s
+	/opt/rh/gcc-toolset-11/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/s5529663/Desktop/2022/project/DLA/DLA02/src/Image.cpp -o CMakeFiles/DLA02.dir/src/Image.cpp.s
 
 CMakeFiles/DLA02.dir/src/Walker.cpp.o: CMakeFiles/DLA02.dir/flags.make
 CMakeFiles/DLA02.dir/src/Walker.cpp.o: ../src/Walker.cpp
 CMakeFiles/DLA02.dir/src/Walker.cpp.o: CMakeFiles/DLA02.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/s5529663/Desktop/2022/cpp_notes/ASE_code/lab3/DLA02/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/DLA02.dir/src/Walker.cpp.o"
-	/opt/rh/gcc-toolset-11/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DLA02.dir/src/Walker.cpp.o -MF CMakeFiles/DLA02.dir/src/Walker.cpp.o.d -o CMakeFiles/DLA02.dir/src/Walker.cpp.o -c /home/s5529663/Desktop/2022/cpp_notes/ASE_code/lab3/DLA02/src/Walker.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/s5529663/Desktop/2022/project/DLA/DLA02/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/DLA02.dir/src/Walker.cpp.o"
+	/opt/rh/gcc-toolset-11/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DLA02.dir/src/Walker.cpp.o -MF CMakeFiles/DLA02.dir/src/Walker.cpp.o.d -o CMakeFiles/DLA02.dir/src/Walker.cpp.o -c /home/s5529663/Desktop/2022/project/DLA/DLA02/src/Walker.cpp
 
 CMakeFiles/DLA02.dir/src/Walker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DLA02.dir/src/Walker.cpp.i"
-	/opt/rh/gcc-toolset-11/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/s5529663/Desktop/2022/cpp_notes/ASE_code/lab3/DLA02/src/Walker.cpp > CMakeFiles/DLA02.dir/src/Walker.cpp.i
+	/opt/rh/gcc-toolset-11/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/s5529663/Desktop/2022/project/DLA/DLA02/src/Walker.cpp > CMakeFiles/DLA02.dir/src/Walker.cpp.i
 
 CMakeFiles/DLA02.dir/src/Walker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DLA02.dir/src/Walker.cpp.s"
-	/opt/rh/gcc-toolset-11/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/s5529663/Desktop/2022/cpp_notes/ASE_code/lab3/DLA02/src/Walker.cpp -o CMakeFiles/DLA02.dir/src/Walker.cpp.s
+	/opt/rh/gcc-toolset-11/root/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/s5529663/Desktop/2022/project/DLA/DLA02/src/Walker.cpp -o CMakeFiles/DLA02.dir/src/Walker.cpp.s
 
 # Object files for target DLA02
 DLA02_OBJECTS = \
@@ -149,7 +149,7 @@ DLA02: /public/devel/2022/vcpkg/installed/x64-linux/lib/libboost_thread.a
 DLA02: /public/devel/2022/vcpkg/installed/x64-linux/lib/libboost_chrono.a
 DLA02: /public/devel/2022/vcpkg/installed/x64-linux/lib/libboost_atomic.a
 DLA02: CMakeFiles/DLA02.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/s5529663/Desktop/2022/cpp_notes/ASE_code/lab3/DLA02/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable DLA02"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/s5529663/Desktop/2022/project/DLA/DLA02/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable DLA02"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/DLA02.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -161,6 +161,6 @@ CMakeFiles/DLA02.dir/clean:
 .PHONY : CMakeFiles/DLA02.dir/clean
 
 CMakeFiles/DLA02.dir/depend:
-	cd /home/s5529663/Desktop/2022/cpp_notes/ASE_code/lab3/DLA02/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/s5529663/Desktop/2022/cpp_notes/ASE_code/lab3/DLA02 /home/s5529663/Desktop/2022/cpp_notes/ASE_code/lab3/DLA02 /home/s5529663/Desktop/2022/cpp_notes/ASE_code/lab3/DLA02/build /home/s5529663/Desktop/2022/cpp_notes/ASE_code/lab3/DLA02/build /home/s5529663/Desktop/2022/cpp_notes/ASE_code/lab3/DLA02/build/CMakeFiles/DLA02.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/s5529663/Desktop/2022/project/DLA/DLA02/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/s5529663/Desktop/2022/project/DLA/DLA02 /home/s5529663/Desktop/2022/project/DLA/DLA02 /home/s5529663/Desktop/2022/project/DLA/DLA02/build /home/s5529663/Desktop/2022/project/DLA/DLA02/build /home/s5529663/Desktop/2022/project/DLA/DLA02/build/CMakeFiles/DLA02.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/DLA02.dir/depend
 

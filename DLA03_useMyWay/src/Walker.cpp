@@ -41,6 +41,9 @@ std::vector<int> Walker::RandomPoint(std::vector<int> centrePoint)
 {
     int surroundingPoint_x = centrePoint[0]+g_walkDir(g_rng);
     int surroundingPoint_y = centrePoint[1]+g_walkDir(g_rng);
+
+    auto randomPoint = std::vector<int>(surroundingPoint_x,surroundingPoint_y);
+    return randomPoint;
 }
 
 bool Walker::changePointColour(std::vector<int> p)
@@ -74,8 +77,8 @@ std::vector<std::vector<int>> Walker::walk(std::vector<int> centrePoint)
         auto surroundingP = RandomPoint(centrePoint);
         if(changePointColour(surroundingP) == true)
         {
-            surroundingPoints[i] = surroundingP;
-            std::cout<<surroundingPoints[i][0]<<" "<<surroundingPoints[i][1]<<'\n';
+            surroundingPoints.push_back(surroundingP);
+            //std::cout<<surroundingPoints[i][0]<<" "<<surroundingPoints[i][1]<<'\n';
         }
         else
         {
@@ -87,46 +90,3 @@ std::vector<std::vector<int>> Walker::walk(std::vector<int> centrePoint)
     return surroundingPoints;
 }
 
-
-// bool Walker::walk()
-// {
-//     bool walking=true;
-//     bool found;//have I found anything
-//     while(walking)
-//     {
-//         //move walker
-//         m_xpos +=g_walkDir(g_rng);
-//         m_ypos +=g_walkDir(g_rng);
-//         //m_map->setPixel(m_xpos,m_ypos,255,0,0,255);
-//         //have i hit the edges of the map
-//         if(m_xpos ==0 || m_xpos >= m_map->width()-1 ||
-//          m_ypos ==0 || m_ypos >= m_map->height()-1) 
-//          {
-//              walking = false;
-//              found = false;
-//              break;
-//          }
-         
-//          RGBA p;
-//          for(int y=-1;y<=1;++y)
-//          {
-//              for(int x=-1;x<=1;++x)
-//              {
-//                  p=m_map->getPixel(m_xpos+x,m_ypos+y);
-//                  //std::cout<<std::to_string(p.r)<<std::to_string(p.g)<<std::to_string(p.b)<<'\n';
-//                  if(static_cast<int>(p.a)==255)
-//                  {
-//                      std::cout<<"found seed\n";
-//                      m_map->setPixel(m_xpos,m_ypos,0,0,0,255);
-//                      walking = false;
-//                      found = true;
-//                      break;
-//                  }
-//              }
-//          }
-         
-         
-//     } 
-
-//     return found;
-// }

@@ -5,7 +5,7 @@
 
 int main()
 {
-    Walker w(500,500);
+    Walker w(200,200);
     std::cout<<"DLA \n";
     for(int i = 0; i<10; i++)
     {
@@ -18,7 +18,7 @@ int main()
        
         if(w.walk() == true)
         {
-            if(i %10)
+            if(i%10 ==1)
             {
                  //std::cout<<"begin walk"<<'\n';
                 w.saveImage(fmt::format("sim.{:04d}.tiff",++frame));

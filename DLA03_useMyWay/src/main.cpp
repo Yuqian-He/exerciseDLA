@@ -5,53 +5,66 @@
 
 int main()
 {
-    Walker w(500,500);
+    Walker w(200,200);
     std::cout<<"DLA \n";
-    int sizeCentrePoint = 10;
-    std::vector<int>* DynamicArr = new std::vector<int>[sizeCentrePoint]();
+    int sizeCentrePoint = 3;
+    std::vector<std::vector<int>> DynamicArr;
+
+    //random create start point
     for(int i = 0; i<sizeCentrePoint; i++)
     {
         auto centrePoint = w.randomImageSeed();
-        std::cout<<centrePoint[0]<<" "<<centrePoint[1]<<'\n';
-        DynamicArr[i]=centrePoint;
+        //std::cout<<centrePoint[0]<<" "<<centrePoint[1]<<'\n';
+        DynamicArr.push_back(centrePoint);
     }
 
 
+    //std::cout<<DynamicArr.size()<<"11111111111111"<<'\n';
+    w.saveImage("test.tiff");
     int numberOfImage = 5;
+    std::vector<std::vector<int>>* prtArray = new std::vector<std::vector<int>>[DynamicArr.size()]();
     
-    
-    for(int i = 0; i < numberOfImage; i++)
+    //every Image
+    for(int i = 0; i < numberOfImage; ++i)
     {
-        std::vector<std::vector<int>>* prtArray = new std::vector<std::vector<int>>[DynamicArr->size()]();
+        
         int sizePointer_prt;
         //std::vector<int>* new_DynamicArrPoint = new std::vector<int>[sizeCentrePoint]();
         if(i == 0)
         {
+            sizeCentrePoint=0;
             //std::vector<int>** prtArray = new std::vector<int>*[DynamicArr->size()]();
-            for(int j = 0; j< DynamicArr->size(); j++)
+            for(int j = 0; j< DynamicArr.size(); ++j)
             {
                 prtArray[j]=w.walk(DynamicArr[j]);
-                //std::cout<<prtArray[j]<<'\n';
+                std::cout<<prtArray[j].size()<<"   888888888888888888888888888"<<'\n';
             }
-            for(int z = 0; z< DynamicArr->size(); z++)
+            for(int z = 0; z< DynamicArr.size(); ++z)
             {
-                sizePointer_prt=DynamicArr->size();
-                sizeCentrePoint = 0;
+                sizePointer_prt=DynamicArr.size();
+                //sizeCentrePoint = 0;
                 sizeCentrePoint += prtArray[z].size();
             }
+            //std::cout<<sizeCentrePoint<<"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"<<'\n';
         }
         else{
             std::vector<std::vector<int>>* new_prtArray = new std::vector<std::vector<int>>[sizeCentrePoint]();
             int size = 0;
-            for(int j=0; j< sizePointer_prt; j++)
+            //std::cout<<sizePointer_prt<<"2222222222222222222"<<prtArray[0].size()<<'\n';
+            for(int j=0; j< sizePointer_prt; ++j)
             {               
-                for(int z = 0; z< prtArray[j].size(); z++)
+                for(int z = 0; z< prtArray[j].size(); ++z)
                 {
                     new_prtArray[j]=w.walk(prtArray[j][z]);
                     size+= new_prtArray[j].size();
+                    std::cout<<new_prtArray[j].size()<<'\n';
                 }
+                std::cout<<size<<'\n';
             }
             sizeCentrePoint=size;
+            sizePointer_prt=new_prtArray->size();
+            prtArray->clear();
+            prtArray=new_prtArray;
         }
         w.saveImage(fmt::format("sim.{:04d}.tiff",i));
     }

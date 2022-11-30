@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/s5529663/Desktop/2022/cpp_notes/ASE_code/lab3/DLA02
+CMAKE_SOURCE_DIR = /home/s5529663/Desktop/2022/project/DLA/DLA02
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/s5529663/Desktop/2022/cpp_notes/ASE_code/lab3/DLA02/build
+CMAKE_BINARY_DIR = /home/s5529663/Desktop/2022/project/DLA/DLA02/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -81,14 +81,14 @@ clean: CMakeFiles/DLA02.dir/clean
 CMakeFiles/DLA02.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DLA02.dir/build.make CMakeFiles/DLA02.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DLA02.dir/build.make CMakeFiles/DLA02.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/s5529663/Desktop/2022/cpp_notes/ASE_code/lab3/DLA02/build/CMakeFiles --progress-num=1,2,3,4 "Built target DLA02"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/s5529663/Desktop/2022/project/DLA/DLA02/build/CMakeFiles --progress-num=1,2,3,4 "Built target DLA02"
 .PHONY : CMakeFiles/DLA02.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/DLA02.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/s5529663/Desktop/2022/cpp_notes/ASE_code/lab3/DLA02/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/s5529663/Desktop/2022/project/DLA/DLA02/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/DLA02.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/s5529663/Desktop/2022/cpp_notes/ASE_code/lab3/DLA02/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/s5529663/Desktop/2022/project/DLA/DLA02/build/CMakeFiles 0
 .PHONY : CMakeFiles/DLA02.dir/rule
 
 # Convenience name for target.

@@ -1,3 +1,3 @@
-/home/s5529663/Desktop/2022/cpp_notes/ASE_code/lab3/DLA02/build/CMakeFiles/rebuild_cache.dir
-/home/s5529663/Desktop/2022/cpp_notes/ASE_code/lab3/DLA02/build/CMakeFiles/DLA02.dir
-/home/s5529663/Desktop/2022/cpp_notes/ASE_code/lab3/DLA02/build/CMakeFiles/edit_cache.dir
+/home/s5529663/Desktop/2022/project/DLA/DLA02/build/CMakeFiles/rebuild_cache.dir
+/home/s5529663/Desktop/2022/project/DLA/DLA02/build/CMakeFiles/DLA02.dir
+/home/s5529663/Desktop/2022/project/DLA/DLA02/build/CMakeFiles/edit_cache.dir

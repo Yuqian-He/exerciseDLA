@@ -1,8 +1,8 @@
 CMakeFiles/DLA02.dir/src/Walker.cpp.o: \
- /home/s5529663/Desktop/2022/cpp_notes/ASE_code/lab3/DLA02/src/Walker.cpp \
+ /home/s5529663/Desktop/2022/project/DLA/DLA02/src/Walker.cpp \
  /usr/include/stdc-predef.h \
- /home/s5529663/Desktop/2022/cpp_notes/ASE_code/lab3/DLA02/include/Walker.h \
- /home/s5529663/Desktop/2022/cpp_notes/ASE_code/lab3/DLA02/include/Image.h \
+ /home/s5529663/Desktop/2022/project/DLA/DLA02/include/Walker.h \
+ /home/s5529663/Desktop/2022/project/DLA/DLA02/include/Image.h \
  /opt/rh/gcc-toolset-11/root/usr/include/c++/11/cstddef \
  /opt/rh/gcc-toolset-11/root/usr/include/c++/11/x86_64-redhat-linux/bits/c++config.h \
  /usr/include/bits/wordsize.h \
@@ -13,7 +13,7 @@ CMakeFiles/DLA02.dir/src/Walker.cpp.o: \
  /opt/rh/gcc-toolset-11/root/usr/include/c++/11/x86_64-redhat-linux/bits/cpu_defines.h \
  /opt/rh/gcc-toolset-11/root/usr/include/c++/11/pstl/pstl_config.h \
  /opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/include/stddef.h \
- /home/s5529663/Desktop/2022/cpp_notes/ASE_code/lab3/DLA02/include/RGBA.h \
+ /home/s5529663/Desktop/2022/project/DLA/DLA02/include/RGBA.h \
  /opt/rh/gcc-toolset-11/root/usr/include/c++/11/cstdint \
  /opt/rh/gcc-toolset-11/root/usr/lib/gcc/x86_64-redhat-linux/11/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/libc-header-start.h \
